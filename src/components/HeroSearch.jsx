@@ -143,9 +143,9 @@ export default function HeroSearch({ onSearch, loading, onAskAI }) {
 }
 
 const aiRow = {
-  wrap:      { display: 'flex', alignItems: 'flex-start', gap: 10, padding: '12px 0 4px', flexWrap: 'wrap' },
-  label:     { fontSize: 12, fontWeight: 800, color: 'rgba(255,255,255,0.55)', textTransform: 'uppercase', letterSpacing: '0.07em', flexShrink: 0, paddingTop: 7 },
-  chips:     { display: 'flex', flexWrap: 'wrap', gap: 8 },
+  wrap:      { display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10, padding: '12px 0 4px', flexWrap: 'wrap' },
+  label:     { fontSize: 12, fontWeight: 800, color: 'rgba(255,255,255,0.55)', textTransform: 'uppercase', letterSpacing: '0.07em', flexShrink: 0 },
+  chips:     { display: 'flex', flexWrap: 'wrap', gap: 8, justifyContent: 'center' },
   chip:      { display: 'flex', alignItems: 'center', gap: 6, padding: '6px 14px', background: 'rgba(255,255,255,0.1)', color: 'rgba(255,255,255,0.9)', fontSize: 12, fontWeight: 600, border: '1px solid rgba(255,255,255,0.2)', borderRadius: 20, cursor: 'pointer', transition: 'background 0.12s', fontFamily: 'inherit' },
   chipEmoji: { fontSize: 13 },
 }
